@@ -106,6 +106,20 @@ function formatRelativeAge(dateString, now = Date.now()) {
   return hours ? `${days}d ${hours}h ago` : `${days}d ago`;
 }
 
+function formatProjectDate(dateString, locale) {
+  if (!dateString) return "unavailable";
+
+  const date = new Date(`${dateString}T00:00:00Z`);
+  if (Number.isNaN(date.getTime())) return "unavailable";
+
+  return new Intl.DateTimeFormat(locale, {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  }).format(date);
+}
+
 function isStale(dateString, now = Date.now()) {
   const updatedAt = new Date(dateString).getTime();
   return Boolean(dateString)
@@ -328,6 +342,9 @@ function renderMetrics(data) {
   metrics = data;
   document.getElementById("updated-at").textContent = formatDate(data.updated_at);
   document.getElementById("updated-at").dateTime = data.updated_at || "";
+  document.getElementById("online-since").textContent =
+    formatProjectDate(data.online_since);
+  document.getElementById("online-since").dateTime = data.online_since || "";
 
   setMetric("price-ada", metricMarkup(data.price_ada, 3, "ADA"));
   setMetric("unique-stakers", metricMarkup(data.unique_stakers, 0));
@@ -387,12 +404,13 @@ function initializeDashboard() {
       document.getElementById("updated-at").textContent = "unavailable";
       document.getElementById("updated-relative").textContent =
         "Updated: unavailable";
+      document.getElementById("online-since").textContent = "unavailable";
       console.error(error);
     });
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { formatRelativeAge, isStale };
+  module.exports = { formatProjectDate, formatRelativeAge, isStale };
 }
 
 if (typeof document !== "undefined") {

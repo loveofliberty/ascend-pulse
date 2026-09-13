@@ -124,7 +124,7 @@ a:focus-visible {
   font-variant-numeric: tabular-nums;
 }
 
-.update-copy > span:last-child {
+.update-copy > span:not(:first-child) {
   color: var(--subtle);
   font-size: 0.75rem;
 }
