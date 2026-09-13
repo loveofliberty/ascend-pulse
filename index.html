@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="ASCEND Pulse — independent community metrics for ASCEND."
+    >
+    <title>ASCEND Pulse — Community metrics</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="ASCEND Pulse home">
+          <span class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+          <span>
+            <span class="brand-name">ASCEND</span>
+            <span class="brand-product">Pulse</span>
+          </span>
+        </a>
+
+        <div class="update-status" aria-live="polite">
+          <span class="status-dot" id="status-dot" aria-hidden="true"></span>
+          <span class="update-copy">
+            <span>
+              Last updated:
+              <time id="updated-at">Loading…</time>
+            </span>
+            <span id="updated-relative">Updated: loading…</span>
+          </span>
+          <span class="stale-badge" id="stale-warning" hidden>
+            Data may be stale
+          </span>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="intro" aria-labelledby="page-title">
+          <div>
+            <p class="eyebrow">Public network overview</p>
+            <h1 id="page-title">ASCEND Pulse</h1>
+            <p class="subtitle">Community metrics for ASCEND</p>
+          </div>
+          <p class="disclaimer">
+            Independent community dashboard. Not affiliated with Ascend.
+            Data from public APIs. Not financial advice.
+          </p>
+        </section>
+
+        <section class="kpi-grid" aria-label="Current ASCEND metrics">
+          <article class="kpi-card kpi-card--price">
+            <div class="kpi-heading">
+              <p>ASCEND / ADA</p>
+              <span class="metric-icon" aria-hidden="true">A</span>
+            </div>
+            <p class="kpi-value" id="price-ada">—</p>
+            <p class="kpi-change" id="price-change">—</p>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-heading">
+              <p>Unique Stakers</p>
+              <span class="metric-icon" aria-hidden="true">●</span>
+            </div>
+            <p class="kpi-value" id="unique-stakers">—</p>
+            <p class="kpi-change" id="stakers-change">—</p>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-heading">
+              <p>Total Staked</p>
+              <span class="metric-icon" aria-hidden="true">↗</span>
+            </div>
+            <p class="kpi-value kpi-value--compact" id="total-staked">—</p>
+            <p class="kpi-change" id="total-staked-change">—</p>
+          </article>
+
+          <article class="kpi-card">
+            <div class="kpi-heading">
+              <p>Reward Pool</p>
+              <span class="metric-icon" aria-hidden="true">◇</span>
+            </div>
+            <p class="kpi-value" id="reward-pool">—</p>
+            <p class="kpi-change" id="reward-pool-change">—</p>
+          </article>
+        </section>
+
+        <section class="distribution" aria-label="Next reward distribution">
+          <div class="distribution-icon" aria-hidden="true">⌁</div>
+          <div>
+            <p class="distribution-label">Next distribution</p>
+            <p class="distribution-date" id="next-distribution">—</p>
+          </div>
+          <p>Current staking epoch schedule</p>
+        </section>
+
+        <section class="trends" aria-labelledby="trends-title">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Historical view</p>
+              <h2 id="trends-title">Network trends</h2>
+            </div>
+            <div class="range-control" aria-label="Chart time range">
+              <button type="button" data-range="7" aria-pressed="true">7D</button>
+              <button type="button" data-range="30" aria-pressed="false">30D</button>
+              <button type="button" data-range="90" aria-pressed="false">90D</button>
+            </div>
+          </div>
+          <p class="history-note" id="history-note" hidden>
+            History is being collected. Showing all available real data.
+          </p>
+
+          <div class="chart-grid">
+            <article class="chart-card">
+              <div class="chart-heading">
+                <div>
+                  <p class="chart-kicker">Market</p>
+                  <h3>ASCEND / ADA price</h3>
+                </div>
+                <p class="chart-current" id="price-chart-current">—</p>
+              </div>
+              <svg id="price-chart" class="chart" role="img"></svg>
+              <div class="chart-footer">
+                <span id="price-chart-start">—</span>
+                <span id="price-chart-range">7 day view</span>
+                <span id="price-chart-end">—</span>
+              </div>
+            </article>
+
+            <article class="chart-card">
+              <div class="chart-heading">
+                <div>
+                  <p class="chart-kicker">Participation</p>
+                  <h3>Unique stakers</h3>
+                </div>
+                <p class="chart-current" id="stakers-chart-current">—</p>
+              </div>
+              <svg id="stakers-chart" class="chart" role="img"></svg>
+              <div class="chart-footer">
+                <span id="stakers-chart-start">—</span>
+                <span id="stakers-chart-range">7 day view</span>
+                <span id="stakers-chart-end">—</span>
+              </div>
+            </article>
+
+            <article class="chart-card">
+              <div class="chart-heading">
+                <div>
+                  <p class="chart-kicker">Staking</p>
+                  <h3>Total staked</h3>
+                </div>
+                <p class="chart-current" id="staked-chart-current">—</p>
+              </div>
+              <svg id="staked-chart" class="chart" role="img"></svg>
+              <div class="chart-footer">
+                <span id="staked-chart-start">—</span>
+                <span id="staked-chart-range">7 day view</span>
+                <span id="staked-chart-end">—</span>
+              </div>
+            </article>
+
+            <article class="chart-card">
+              <div class="chart-heading">
+                <div>
+                  <p class="chart-kicker">Rewards</p>
+                  <h3>Reward pool</h3>
+                </div>
+                <p class="chart-current" id="pool-chart-current">—</p>
+              </div>
+              <svg id="pool-chart" class="chart" role="img"></svg>
+              <div class="chart-footer">
+                <span id="pool-chart-start">—</span>
+                <span id="pool-chart-range">7 day view</span>
+                <span id="pool-chart-end">—</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <p class="load-error" id="load-error" role="alert" hidden>
+          Metrics are temporarily unavailable. Please refresh to try again.
+        </p>
+      </main>
+
+      <footer class="site-footer">
+        <section aria-labelledby="sources-title">
+          <p class="eyebrow">Transparency</p>
+          <h2 id="sources-title">Data Sources</h2>
+          <ul>
+            <li>ASCEND staking API</li>
+            <li>Minswap</li>
+            <li>Koios / Cardano</li>
+          </ul>
+          <p>
+            This dashboard is generated from public data and updated
+            periodically. Values may be delayed or temporarily unavailable.
+          </p>
+          <p class="privacy-note">
+            Privacy-friendly anonymous usage statistics are collected to
+            understand how ASCEND Pulse is used. No advertising trackers or
+            analytics cookies.
+          </p>
+        </section>
+        <p class="footer-brand">ASCEND Pulse <span>Community-built</span></p>
+      </footer>
+    </div>
+    <!-- Replace the placeholder account code with the assigned GoatCounter code. -->
+    <script
+      data-goatcounter="https://ascendpulse.goatcounter.com/count"
+      async
+      src="https://gc.zgo.at/count.js"
+    ></script>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,16 @@
+{
+  "updated_at": null,
+  "price_ada": null,
+  "change_24h_pct": null,
+  "unique_stakers": null,
+  "stakers_change_24h": null,
+  "stakers_change_24h_pct": null,
+  "total_staked": null,
+  "total_staked_change_24h": null,
+  "total_staked_change_24h_pct": null,
+  "reward_pool_usdc": null,
+  "reward_pool_change_24h": null,
+  "reward_pool_change_24h_pct": null,
+  "next_distribution": null,
+  "history": []
+}
