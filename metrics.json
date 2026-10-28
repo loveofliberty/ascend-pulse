@@ -1,17 +1,17 @@
 {
   "online_since": "2026-09-13",
-  "updated_at": "2026-10-28T14:00:32.974813+00:00",
-  "price_ada": 1.344,
-  "change_24h_pct": 4.45,
+  "updated_at": "2026-10-28T17:00:41.934357+00:00",
+  "price_ada": 1.298,
+  "change_24h_pct": 1.03,
   "unique_stakers": 566,
   "stakers_change_24h": 2,
   "stakers_change_24h_pct": 0.3546099290780142,
   "total_staked": 12086525.262119997,
   "total_staked_change_24h": -8269.268019000068,
   "total_staked_change_24h_pct": -0.06837047126674119,
-  "reward_pool_usdc": 2917.38409,
-  "reward_pool_change_24h": 435.25628400000005,
-  "reward_pool_change_24h_pct": 17.535611298816416,
+  "reward_pool_usdc": 2921.883363,
+  "reward_pool_change_24h": 379.40859,
+  "reward_pool_change_24h_pct": 14.922806473014315,
   "next_distribution": "2026-11-18",
   "history": [
     {
@@ -993,55 +993,6 @@
       "unique_stakers": 562,
       "total_staked": 12068205.942486001,
       "reward_pool_usdc": 1563.328791
-    },
-    {
-      "timestamp": "2026-10-25T14:00:22.080656+00:00",
-      "price_ada": 1.043,
-      "unique_stakers": 562,
-      "total_staked": 12068205.942486001,
-      "reward_pool_usdc": 1567.277289
-    },
-    {
-      "timestamp": "2026-10-25T14:01:03.304005+00:00",
-      "price_ada": 1.043,
-      "unique_stakers": 562,
-      "total_staked": 12068205.942486001,
-      "reward_pool_usdc": 1567.29217
-    },
-    {
-      "timestamp": "2026-10-25T14:31:05.798219+00:00",
-      "price_ada": 1.043,
-      "unique_stakers": 562,
-      "total_staked": 12068205.942486001,
-      "reward_pool_usdc": 1567.91749
-    },
-    {
-      "timestamp": "2026-10-25T15:01:32.876685+00:00",
-      "price_ada": 1.038,
-      "unique_stakers": 562,
-      "total_staked": 12068205.942486001,
-      "reward_pool_usdc": 1568.552317
-    },
-    {
-      "timestamp": "2026-10-25T15:31:45.202448+00:00",
-      "price_ada": 1.036,
-      "unique_stakers": 562,
-      "total_staked": 12068205.942486001,
-      "reward_pool_usdc": 1569.181415
-    },
-    {
-      "timestamp": "2026-10-25T16:01:56.599163+00:00",
-      "price_ada": 1.037,
-      "unique_stakers": 563,
-      "total_staked": 12068607.934517002,
-      "reward_pool_usdc": 1570.266887
-    },
-    {
-      "timestamp": "2026-10-25T16:32:09.645981+00:00",
-      "price_ada": 1.037,
-      "unique_stakers": 563,
-      "total_staked": 12068607.934517002,
-      "reward_pool_usdc": 1571.946321
     },
     {
       "timestamp": "2026-10-25T17:00:18.592028+00:00",
@@ -2127,6 +2078,55 @@
       "unique_stakers": 566,
       "total_staked": 12086525.262119997,
       "reward_pool_usdc": 2917.38409
+    },
+    {
+      "timestamp": "2026-10-28T14:26:55.107544+00:00",
+      "price_ada": 1.311,
+      "unique_stakers": 566,
+      "total_staked": 12086525.262119997,
+      "reward_pool_usdc": 2917.933587
+    },
+    {
+      "timestamp": "2026-10-28T14:57:04.132908+00:00",
+      "price_ada": 1.311,
+      "unique_stakers": 566,
+      "total_staked": 12086525.262119997,
+      "reward_pool_usdc": 2918.561721
+    },
+    {
+      "timestamp": "2026-10-28T15:27:12.869675+00:00",
+      "price_ada": 1.312,
+      "unique_stakers": 566,
+      "total_staked": 12086525.262119997,
+      "reward_pool_usdc": 2919.235994
+    },
+    {
+      "timestamp": "2026-10-28T15:57:12.999556+00:00",
+      "price_ada": 1.312,
+      "unique_stakers": 566,
+      "total_staked": 12086525.262119997,
+      "reward_pool_usdc": 2920.561062
+    },
+    {
+      "timestamp": "2026-10-28T16:27:28.415427+00:00",
+      "price_ada": 1.297,
+      "unique_stakers": 566,
+      "total_staked": 12086525.262119997,
+      "reward_pool_usdc": 2921.191504
+    },
+    {
+      "timestamp": "2026-10-28T16:57:43.062413+00:00",
+      "price_ada": 1.298,
+      "unique_stakers": 566,
+      "total_staked": 12086525.262119997,
+      "reward_pool_usdc": 2921.821662
+    },
+    {
+      "timestamp": "2026-10-28T17:00:41.934357+00:00",
+      "price_ada": 1.298,
+      "unique_stakers": 566,
+      "total_staked": 12086525.262119997,
+      "reward_pool_usdc": 2921.883363
     }
   ]
 }
