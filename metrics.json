@@ -1,17 +1,17 @@
 {
   "online_since": "2026-09-13",
-  "updated_at": "2026-11-09T05:00:18.032117+00:00",
-  "price_ada": 1.183,
-  "change_24h_pct": 11.53,
-  "unique_stakers": 577,
-  "stakers_change_24h": 0,
-  "stakers_change_24h_pct": 0.0,
-  "total_staked": 12067374.147170993,
-  "total_staked_change_24h": 47030.42812799662,
-  "total_staked_change_24h_pct": 0.3912569326406996,
-  "reward_pool_usdc": 8648.43703,
-  "reward_pool_change_24h": 223.21155299999918,
-  "reward_pool_change_24h_pct": 2.6493243843662557,
+  "updated_at": "2026-11-09T08:00:15.199484+00:00",
+  "price_ada": 1.18,
+  "change_24h_pct": 11.48,
+  "unique_stakers": 578,
+  "stakers_change_24h": 1,
+  "stakers_change_24h_pct": 0.17331022530329288,
+  "total_staked": 12083655.253997993,
+  "total_staked_change_24h": 63311.53495499678,
+  "total_staked_change_24h_pct": 0.5267031994658914,
+  "reward_pool_usdc": 8652.759595,
+  "reward_pool_change_24h": 210.27539400000023,
+  "reward_pool_change_24h_pct": 2.4906815220938574,
   "next_distribution": "2026-11-18",
   "history": [
     {
@@ -1317,53 +1317,11 @@
       "reward_pool_usdc": 8228.287026
     },
     {
-      "timestamp": "2026-11-06T04:38:16.099545+00:00",
-      "price_ada": 1.108,
-      "unique_stakers": 575,
-      "total_staked": 11837674.440646991,
-      "reward_pool_usdc": 8237.0348
-    },
-    {
-      "timestamp": "2026-11-06T05:00:23.025159+00:00",
-      "price_ada": 1.108,
-      "unique_stakers": 575,
-      "total_staked": 11837674.440646991,
-      "reward_pool_usdc": 8237.495623
-    },
-    {
-      "timestamp": "2026-11-06T05:08:13.058452+00:00",
-      "price_ada": 1.093,
-      "unique_stakers": 575,
-      "total_staked": 11837674.440646991,
-      "reward_pool_usdc": 8238.203543
-    },
-    {
       "timestamp": "2026-11-06T05:38:46.322842+00:00",
       "price_ada": 1.093,
       "unique_stakers": 575,
       "total_staked": 11837674.440646991,
       "reward_pool_usdc": 8238.839996
-    },
-    {
-      "timestamp": "2026-11-06T06:09:13.536104+00:00",
-      "price_ada": 1.093,
-      "unique_stakers": 575,
-      "total_staked": 11837674.440646991,
-      "reward_pool_usdc": 8239.621533
-    },
-    {
-      "timestamp": "2026-11-06T06:39:13.242000+00:00",
-      "price_ada": 1.093,
-      "unique_stakers": 575,
-      "total_staked": 11837674.440646991,
-      "reward_pool_usdc": 8257.917967
-    },
-    {
-      "timestamp": "2026-11-06T07:09:15.123354+00:00",
-      "price_ada": 1.094,
-      "unique_stakers": 575,
-      "total_staked": 11837674.440646991,
-      "reward_pool_usdc": 8260.087117
     },
     {
       "timestamp": "2026-11-06T07:39:13.822252+00:00",
@@ -2477,6 +2435,55 @@
       "unique_stakers": 577,
       "total_staked": 12067374.147170993,
       "reward_pool_usdc": 8648.43703
+    },
+    {
+      "timestamp": "2026-11-09T05:03:11.768092+00:00",
+      "price_ada": 1.183,
+      "unique_stakers": 578,
+      "total_staked": 12083655.253997993,
+      "reward_pool_usdc": 8648.497403
+    },
+    {
+      "timestamp": "2026-11-09T05:33:20.748732+00:00",
+      "price_ada": 1.183,
+      "unique_stakers": 578,
+      "total_staked": 12083655.253997993,
+      "reward_pool_usdc": 8649.125941
+    },
+    {
+      "timestamp": "2026-11-09T06:03:29.440903+00:00",
+      "price_ada": 1.184,
+      "unique_stakers": 578,
+      "total_staked": 12083655.253997993,
+      "reward_pool_usdc": 8649.753947
+    },
+    {
+      "timestamp": "2026-11-09T06:33:43.974956+00:00",
+      "price_ada": 1.184,
+      "unique_stakers": 578,
+      "total_staked": 12083655.253997993,
+      "reward_pool_usdc": 8650.395489
+    },
+    {
+      "timestamp": "2026-11-09T07:03:52.529975+00:00",
+      "price_ada": 1.172,
+      "unique_stakers": 578,
+      "total_staked": 12083655.253997993,
+      "reward_pool_usdc": 8651.35885
+    },
+    {
+      "timestamp": "2026-11-09T07:33:56.652060+00:00",
+      "price_ada": 1.184,
+      "unique_stakers": 578,
+      "total_staked": 12083655.253997993,
+      "reward_pool_usdc": 8652.211965
+    },
+    {
+      "timestamp": "2026-11-09T08:00:15.199484+00:00",
+      "price_ada": 1.18,
+      "unique_stakers": 578,
+      "total_staked": 12083655.253997993,
+      "reward_pool_usdc": 8652.759595
     }
   ]
 }
