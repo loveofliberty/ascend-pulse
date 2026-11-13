@@ -1,17 +1,17 @@
 {
   "online_since": "2026-09-13",
-  "updated_at": "2026-11-13T20:00:07.552125+00:00",
-  "price_ada": 1.267,
-  "change_24h_pct": 7.96,
+  "updated_at": "2026-11-13T23:00:18.639708+00:00",
+  "price_ada": 1.284,
+  "change_24h_pct": 10.64,
   "unique_stakers": 590,
   "stakers_change_24h": 4,
   "stakers_change_24h_pct": 0.6825938566552902,
   "total_staked": 12137815.068554996,
   "total_staked_change_24h": 9403.446016998962,
   "total_staked_change_24h_pct": 0.07753237859708452,
-  "reward_pool_usdc": 9790.921036,
-  "reward_pool_change_24h": 291.29498599999897,
-  "reward_pool_change_24h_pct": 3.066383713072568,
+  "reward_pool_usdc": 9807.097774,
+  "reward_pool_change_24h": 220.35455600000023,
+  "reward_pool_change_24h_pct": 2.2985340379855392,
   "next_distribution": "2026-11-18",
   "history": [
     {
@@ -1450,55 +1450,6 @@
       "reward_pool_usdc": 8878.698207
     },
     {
-      "timestamp": "2026-11-10T19:44:36.189272+00:00",
-      "price_ada": 1.232,
-      "unique_stakers": 582,
-      "total_staked": 12144370.209372992,
-      "reward_pool_usdc": 8881.457924
-    },
-    {
-      "timestamp": "2026-11-10T20:00:19.938988+00:00",
-      "price_ada": 1.232,
-      "unique_stakers": 582,
-      "total_staked": 12144370.209372992,
-      "reward_pool_usdc": 8881.784988
-    },
-    {
-      "timestamp": "2026-11-10T20:14:46.506086+00:00",
-      "price_ada": 1.232,
-      "unique_stakers": 582,
-      "total_staked": 12144370.209372992,
-      "reward_pool_usdc": 8882.085821
-    },
-    {
-      "timestamp": "2026-11-10T20:44:59.345111+00:00",
-      "price_ada": 1.233,
-      "unique_stakers": 582,
-      "total_staked": 12144370.209372992,
-      "reward_pool_usdc": 8964.806953
-    },
-    {
-      "timestamp": "2026-11-10T21:14:43.569050+00:00",
-      "price_ada": 1.233,
-      "unique_stakers": 582,
-      "total_staked": 12144370.209372992,
-      "reward_pool_usdc": 8965.514587
-    },
-    {
-      "timestamp": "2026-11-10T21:45:15.368974+00:00",
-      "price_ada": 1.233,
-      "unique_stakers": 582,
-      "total_staked": 12144370.209372992,
-      "reward_pool_usdc": 8966.15019
-    },
-    {
-      "timestamp": "2026-11-10T22:15:32.537193+00:00",
-      "price_ada": 1.233,
-      "unique_stakers": 583,
-      "total_staked": 12149275.509284992,
-      "reward_pool_usdc": 8966.781646
-    },
-    {
       "timestamp": "2026-11-10T22:45:44.698128+00:00",
       "price_ada": 1.233,
       "unique_stakers": 583,
@@ -2610,6 +2561,55 @@
       "unique_stakers": 590,
       "total_staked": 12137815.068554996,
       "reward_pool_usdc": 9790.921036
+    },
+    {
+      "timestamp": "2026-11-13T20:08:28.045813+00:00",
+      "price_ada": 1.268,
+      "unique_stakers": 590,
+      "total_staked": 12137815.068554996,
+      "reward_pool_usdc": 9791.094439
+    },
+    {
+      "timestamp": "2026-11-13T20:38:36.797883+00:00",
+      "price_ada": 1.263,
+      "unique_stakers": 590,
+      "total_staked": 12137815.068554996,
+      "reward_pool_usdc": 9801.830025
+    },
+    {
+      "timestamp": "2026-11-13T21:08:44.478312+00:00",
+      "price_ada": 1.281,
+      "unique_stakers": 590,
+      "total_staked": 12137815.068554996,
+      "reward_pool_usdc": 9802.656008
+    },
+    {
+      "timestamp": "2026-11-13T21:38:42.932885+00:00",
+      "price_ada": 1.281,
+      "unique_stakers": 590,
+      "total_staked": 12137815.068554996,
+      "reward_pool_usdc": 9803.280724
+    },
+    {
+      "timestamp": "2026-11-13T22:08:53.963669+00:00",
+      "price_ada": 1.282,
+      "unique_stakers": 590,
+      "total_staked": 12137815.068554996,
+      "reward_pool_usdc": 9806.026754
+    },
+    {
+      "timestamp": "2026-11-13T22:38:53.285584+00:00",
+      "price_ada": 1.283,
+      "unique_stakers": 590,
+      "total_staked": 12137815.068554996,
+      "reward_pool_usdc": 9806.651806
+    },
+    {
+      "timestamp": "2026-11-13T23:00:18.639708+00:00",
+      "price_ada": 1.284,
+      "unique_stakers": 590,
+      "total_staked": 12137815.068554996,
+      "reward_pool_usdc": 9807.097774
     }
   ]
 }
