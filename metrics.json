@@ -1,17 +1,17 @@
 {
   "online_since": "2026-09-13",
-  "updated_at": "2026-11-16T20:00:10.641068+00:00",
-  "price_ada": 1.382,
-  "change_24h_pct": -5.32,
+  "updated_at": "2026-11-16T23:00:08.436270+00:00",
+  "price_ada": 1.37,
+  "change_24h_pct": -0.63,
   "unique_stakers": 603,
-  "stakers_change_24h": 6,
-  "stakers_change_24h_pct": 1.0050251256281406,
+  "stakers_change_24h": 5,
+  "stakers_change_24h_pct": 0.8361204013377926,
   "total_staked": 12209502.863701992,
-  "total_staked_change_24h": 101385.65607699752,
-  "total_staked_change_24h_pct": 0.8373362624302206,
-  "reward_pool_usdc": 10661.735887,
-  "reward_pool_change_24h": 142.49446100000023,
-  "reward_pool_change_24h_pct": 1.3546077633297986,
+  "total_staked_change_24h": 20794.843330997974,
+  "total_staked_change_24h_pct": 0.1706074449912455,
+  "reward_pool_usdc": 10705.802113,
+  "reward_pool_change_24h": 168.04461099999935,
+  "reward_pool_change_24h_pct": 1.5946904354945113,
   "next_distribution": "2026-11-18",
   "history": [
     {
@@ -1534,48 +1534,6 @@
       "reward_pool_usdc": 9785.124469
     },
     {
-      "timestamp": "2026-11-13T20:00:07.552125+00:00",
-      "price_ada": 1.267,
-      "unique_stakers": 590,
-      "total_staked": 12137815.068554996,
-      "reward_pool_usdc": 9790.921036
-    },
-    {
-      "timestamp": "2026-11-13T20:08:28.045813+00:00",
-      "price_ada": 1.268,
-      "unique_stakers": 590,
-      "total_staked": 12137815.068554996,
-      "reward_pool_usdc": 9791.094439
-    },
-    {
-      "timestamp": "2026-11-13T20:38:36.797883+00:00",
-      "price_ada": 1.263,
-      "unique_stakers": 590,
-      "total_staked": 12137815.068554996,
-      "reward_pool_usdc": 9801.830025
-    },
-    {
-      "timestamp": "2026-11-13T21:08:44.478312+00:00",
-      "price_ada": 1.281,
-      "unique_stakers": 590,
-      "total_staked": 12137815.068554996,
-      "reward_pool_usdc": 9802.656008
-    },
-    {
-      "timestamp": "2026-11-13T21:38:42.932885+00:00",
-      "price_ada": 1.281,
-      "unique_stakers": 590,
-      "total_staked": 12137815.068554996,
-      "reward_pool_usdc": 9803.280724
-    },
-    {
-      "timestamp": "2026-11-13T22:08:53.963669+00:00",
-      "price_ada": 1.282,
-      "unique_stakers": 590,
-      "total_staked": 12137815.068554996,
-      "reward_pool_usdc": 9806.026754
-    },
-    {
       "timestamp": "2026-11-13T22:38:53.285584+00:00",
       "price_ada": 1.283,
       "unique_stakers": 590,
@@ -2603,6 +2561,55 @@
       "unique_stakers": 603,
       "total_staked": 12209502.863701992,
       "reward_pool_usdc": 10661.735887
+    },
+    {
+      "timestamp": "2026-11-16T20:03:34.089170+00:00",
+      "price_ada": 1.382,
+      "unique_stakers": 603,
+      "total_staked": 12209502.863701992,
+      "reward_pool_usdc": 10661.806864
+    },
+    {
+      "timestamp": "2026-11-16T20:33:42.405270+00:00",
+      "price_ada": 1.38,
+      "unique_stakers": 603,
+      "total_staked": 12209502.863701992,
+      "reward_pool_usdc": 10662.434999
+    },
+    {
+      "timestamp": "2026-11-16T21:04:16.489501+00:00",
+      "price_ada": 1.351,
+      "unique_stakers": 603,
+      "total_staked": 12209502.863701992,
+      "reward_pool_usdc": 10703.388828
+    },
+    {
+      "timestamp": "2026-11-16T21:34:22.490719+00:00",
+      "price_ada": 1.321,
+      "unique_stakers": 603,
+      "total_staked": 12209502.863701992,
+      "reward_pool_usdc": 10704.015943
+    },
+    {
+      "timestamp": "2026-11-16T22:04:23.399119+00:00",
+      "price_ada": 1.322,
+      "unique_stakers": 603,
+      "total_staked": 12209502.863701992,
+      "reward_pool_usdc": 10704.641167
+    },
+    {
+      "timestamp": "2026-11-16T22:34:26.569411+00:00",
+      "price_ada": 1.339,
+      "unique_stakers": 603,
+      "total_staked": 12209502.863701992,
+      "reward_pool_usdc": 10705.266994
+    },
+    {
+      "timestamp": "2026-11-16T23:00:08.436270+00:00",
+      "price_ada": 1.37,
+      "unique_stakers": 603,
+      "total_staked": 12209502.863701992,
+      "reward_pool_usdc": 10705.802113
     }
   ]
 }
